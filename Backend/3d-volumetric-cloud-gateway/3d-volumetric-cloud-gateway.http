@@ -1,6 +1,0 @@
-@_3d_volumetric_cloud_gateway_HostAddress = http://localhost:5047
-
-GET {{_3d_volumetric_cloud_gateway_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
