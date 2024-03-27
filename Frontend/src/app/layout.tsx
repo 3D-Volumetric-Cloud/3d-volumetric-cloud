@@ -22,7 +22,7 @@ export default function RootLayout({
             <NavBar/>
             <SidePanel/>
         
-            <main className="pt-32 pl-80">
+            <main className="pt-32 pl-50">
                 {children}
             </main>      
       </body>

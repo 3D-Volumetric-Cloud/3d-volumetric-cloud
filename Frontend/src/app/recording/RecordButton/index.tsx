@@ -3,6 +3,7 @@
 import { useState } from 'react';
 
 
+
 export default function RecordButton() {
     
     const [isRecording, setIsRecording] = useState(false);
@@ -13,7 +14,7 @@ export default function RecordButton() {
     
     return (
         <div 
-            className="rounded-full bg-red-500 h-16 w-16 flex aspect-square items-center justify-center hover:brightness-110 brightness-transition"
+            className="rounded-full bg-red-500 h-20 w-20 flex items-center justify-center hover:bg-red-400"
             onClick={onClick}
         >
             play icon
