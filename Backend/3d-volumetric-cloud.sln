@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3d-volumetric-cloud-gateway", "3d-volumetric-cloud-gateway\3d-volumetric-cloud-gateway.csproj", "{B8E0507E-E2F5-4016-83EE-0B1A3E3C198A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3d-volumetric-cloud-gateway", "3d-volumetric-cloud-gateway\3d-volumetric-cloud-gateway.csproj", "{B8E0507E-E2F5-4016-83EE-0B1A3E3C198A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeslotService", "TimeslotService\TimeslotService.csproj", "{DBF396C1-7F31-423A-8F4D-3C61211DFEB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketplaceService", "MarketplaceService\MarketplaceService.csproj", "{E17BF213-92FE-40A6-A611-B3E645E89EDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService", "UserService\UserService.csproj", "{F6EDE595-405C-4470-9A81-BA50165B3E6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{B8E0507E-E2F5-4016-83EE-0B1A3E3C198A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8E0507E-E2F5-4016-83EE-0B1A3E3C198A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8E0507E-E2F5-4016-83EE-0B1A3E3C198A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF396C1-7F31-423A-8F4D-3C61211DFEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF396C1-7F31-423A-8F4D-3C61211DFEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF396C1-7F31-423A-8F4D-3C61211DFEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF396C1-7F31-423A-8F4D-3C61211DFEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17BF213-92FE-40A6-A611-B3E645E89EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17BF213-92FE-40A6-A611-B3E645E89EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17BF213-92FE-40A6-A611-B3E645E89EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17BF213-92FE-40A6-A611-B3E645E89EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6EDE595-405C-4470-9A81-BA50165B3E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6EDE595-405C-4470-9A81-BA50165B3E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6EDE595-405C-4470-9A81-BA50165B3E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6EDE595-405C-4470-9A81-BA50165B3E6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
